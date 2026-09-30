@@ -8,7 +8,7 @@ export default function Navbar() {
     showEndCallConfirm, 
     setShowEndCallConfirm, 
     handleConfirmEndCall,
-    triggerAction 
+    triggerAction ,
   } = useCall();
 
   const currentStatus = status ? status.trim().toLowerCase() : '';
@@ -17,12 +17,12 @@ export default function Navbar() {
   const isOnContact = currentStatus === 'on contact';
   const isAfterCallWork = currentStatus === 'after call work';
 
-  // 1. حالة الـ After call work
+  // 1. After call work status
   if (isAfterCallWork) {
     return <AfterCallWorkNavbar />;
   }
 
-  // 2. حالة الاتصال النشط (On contact)
+  // 2. Active call status (On contact)
   if (isOnContact) {
     return (
       <div className="relative z-50">
@@ -33,7 +33,7 @@ export default function Navbar() {
           }}
         />
 
-        {/* الشريط السفلي لتأكيد إنهاء المكالمة */}
+        {/* End call confirmation banner */}
         {showEndCallConfirm && (
           <div className="bg-slate-800 text-white px-6 py-2 shadow-md border-t border-slate-700 flex items-center justify-between animate-in slide-in-from-top duration-200">
             <div className="flex items-center space-x-3">
@@ -63,17 +63,17 @@ export default function Navbar() {
     );
   }
 
-  // 3. حالة الاتصال الوارد
+  // 3. Incoming call status
   if (isIncomingCall) {
     return <IncomingCallNavbar />;
   }
 
-  // 4. الوضع الطبيعي
+  // 4. Default status
   return <DefaultNavbar />;
 }
 
 /* ==========================================
-   1. Default Navbar (الوضع الطبيعي)
+   1. Default Navbar
    ========================================== */
 function DefaultNavbar() {
   const { seconds, formatTime, status, setStatus, triggerAction } = useCall();
@@ -211,7 +211,7 @@ function DefaultNavbar() {
 }
 
 /* ==========================================
-   2. Incoming Call Navbar (حالة الاتصال الوارد)
+   2. Incoming Call Navbar
    ========================================== */
 function IncomingCallNavbar() {
   const { seconds, formatTime, setStatus, triggerAction } = useCall();
@@ -256,10 +256,10 @@ function IncomingCallNavbar() {
 }
 
 /* ==========================================
-   3. On Contact Navbar (حالة الاتصال النشط)
+   3. On Contact Navbar
    ========================================== */
 function OnContactNavbar({ onInitiateEndCall }) {
-  const { seconds, formatTime, isOnHold, handleToggleHold, triggerAction } = useCall();
+  const { seconds, formatTime, isOnHold, handleToggleHold, triggerAction,setAskLead } = useCall();
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
   const resourcesRef = useRef(null);
 
@@ -382,6 +382,7 @@ function OnContactNavbar({ onInitiateEndCall }) {
             <div className="absolute right-0 top-full mt-3 w-80 bg-white border border-slate-200 rounded-xl shadow-2xl p-4 z-50 animate-in fade-in zoom-in-95 duration-150">
               <div className="absolute -top-1.5 right-3.5 w-3 h-3 bg-white border-t border-l border-slate-200 rotate-45"></div>
               <div className="relative z-10 flex flex-col gap-3">
+                {/* Top Row: Create follow-up & Create ticket */}
                 <div className="flex items-center justify-between gap-4 border-b border-slate-100 pb-2">
                   <a 
                     href="#create-follow-up" 
@@ -408,7 +409,20 @@ function OnContactNavbar({ onInitiateEndCall }) {
                     <span>Create ticket</span>
                   </a>
                 </div>
-                <div className="pt-0.5">
+
+                {/* Bottom Row: Ask & Report abuse */}
+                <div className="pt-0.5 flex items-center justify-between gap-4">
+                  <a 
+                    href="#ask" 
+                    onClick={(e) => { 
+                      e.preventDefault(); 
+                      setAskLead(true)
+                      setIsResourcesOpen(false); 
+                    }} 
+                    className="text-xs font-bold text-blue-600 hover:text-blue-800 hover:underline transition-colors flex items-center gap-1"
+                  >
+                    <span>Ask Lead</span>
+                  </a>
                   <a 
                     href="#report-abuse" 
                     onClick={(e) => { 
@@ -432,7 +446,7 @@ function OnContactNavbar({ onInitiateEndCall }) {
 }
 
 /* ==========================================
-   4. After Call Work Navbar (الحالة الرابعة)
+   4. After Call Work Navbar
    ========================================== */
 function AfterCallWorkNavbar() {
   const { seconds, formatTime, setStatus, triggerAction } = useCall();

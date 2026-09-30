@@ -165,7 +165,7 @@ export function PaymentCard({ DStatus }) {
     promotions,
     total,
     currency: 'EGP',
-    hasRefund: Boolean(DStatus?.hasRefund) || refundHistory.length > 0,
+    hasRefund: Boolean(DStatus?.hasRefund),
     refundAmount: Number(DStatus?.refundAmount) || total,
     cardLast4: DStatus?.cardLast4 || '4242',
     cardExpiry: DStatus?.cardExpiry || '11/27',

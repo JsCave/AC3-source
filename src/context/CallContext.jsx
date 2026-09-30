@@ -6,7 +6,8 @@ export function CallProvider({ children }) {
   const [status, setStatus] = useState('Offline');
   const [lastAction, setLastAction] = useState('');
   const [workFlow, setWorkFlow] = useState(0);
-  
+  const [askLead, setAskLead] = useState(false);
+
   const [seconds, setSeconds] = useState(0);
   const [isOnHold, setIsOnHold] = useState(false);
   const [showEndCallConfirm, setShowEndCallConfirm] = useState(false);
@@ -75,6 +76,8 @@ export function CallProvider({ children }) {
         handleConfirmEndCall,
         workFlow,
         setWorkFlow,
+        askLead,
+        setAskLead,
       }}
     >
       {children}

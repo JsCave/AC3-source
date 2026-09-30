@@ -6,6 +6,7 @@
     "asin": "B08N5WRWNW",
     "orderType": "Fullfilled by Amazon",
     "name": "Apple iPhone 15 Pro Max 256GB Natural Titanium",
+    "details": "Delivered in TamperProof Package",
     "price": "62000",
     "shippingFees": "0",
     "subtotal": "62000",
@@ -14,14 +15,14 @@
     "total": "70180",
     "hasRefund": false,
     "status": "Delivered",
-    "orderDate": 0,
+    "orderDate": 4,
     "paymentMethod": "visa",
     "cardLast4": "8812",
     "cardExpiry": "08/28",
     "purchaseId": "PUR-10293847",
     "paymentHistory": [
       {
-        "offsetMinutes": 0,
+        "offsetMinutes": 5760,
         "method": "visa",
         "status": "Completed",
         "purchaseId": "PUR-10293847",
@@ -32,23 +33,23 @@
     "phone": "01012345678",
     "returnable": true,
     "returnEligible": "Yes",
-    "EligbleEnd": 18,
+    "EligbleEnd": -14,
     "updateItems": [
-      { "offsetDays": 0, "info": "Order placed." },
-      { "offsetDays": 1, "info": "Arrived at Cairo Facility." },
-      { "offsetDays": 3, "info": "Out for delivery with local courier." },
-      { "offsetDays": 3, "info": "Delivered" }
+      { "offsetDays": 4, "info": "Order placed." },
+      { "offsetDays": 3, "info": "Arrived at Cairo Facility." },
+      { "offsetDays": 1, "info": "Out for delivery with AMZL courier." },
+      { "offsetDays": 0, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
     "shippedStatus": true,
     "outStatus": true,
     "DeliverStatus": true,
-    "orderOffsetDays": 0,
+    "orderOffsetDays": 4,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 1,
-    "outOffsetDays": 3,
-    "deliverOffsetDays": 3,
+    "shippedOffsetDays": 3,
+    "outOffsetDays": 1,
+    "deliverOffsetDays": 0,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -62,8 +63,31 @@
     "shippingCompany": "AMZL",
     "trackingNumber": "AEG98234101",
     "rshippingCompany": "",
-    "rtrackingNumber": ""
+    "rtrackingNumber": "",
+    "notes": [
+    {
+      "id": "note-1",
+      "info": "Customer requested high-value tamper-proof security packaging.",
+      "offsetDays": 4
+    },
+    {
+      "id": "note-2",
+      "info": "Package inspected and scanned at Cairo Fulfillment Center.",
+      "offsetDays": 3
+    },
+    {
+      "id": "note-3",
+      "info": "OTP verification required upon delivery to recipient phone number.",
+      "offsetDays": 1
+    },
+    {
+      "id": "note-4",
+      "info": "Delivered and signed by recipient with OTP confirmation.",
+      "offsetDays": 0
+    }
+  ]
   },
+
   {
     "id": 2,
     "orderNumber": "407-3920192-8172635",
@@ -71,31 +95,24 @@
     "asin": "B09G9F5C1R",
     "orderType": "MFN",
     "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
-    "price": "16500",
-    "shippingFees": "0",
-    "subtotal": "16500",
-    "taxes": "2310",
-    "promotions": "200",
-    "total": "18610",
+    "price": 16500,
+    "shippingFees": 0,
+    "subtotal": 16500,
+    "taxes": 2310,
+    "promotions": 200,
+    "total": 18610,
     "hasRefund": true,
     "status": "Return received",
-    "orderDate": 3,
-    "paymentMethod": "Cash On Delivery",
-    "cardLast4": "",
-    "cardExpiry": "",
+    "orderDate": 7,
+    "paymentMethod": "Credit Card",
+    "cardLast4": "8172",
+    "cardExpiry": "08/28",
     "purchaseId": "PUR-20938475",
     "paymentHistory": [
       {
-        "offsetMinutes": 4320,
-        "method": "Cash On Delivery",
-        "status": "Pending",
-        "reason": "-",
-        "purchaseId": "PUR-20938475",
-        "amount": 18610
-      },
-      {
-        "offsetMinutes": 4325,
-        "method": "Cash On Delivery",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Credit Card •••• 8172",
         "status": "Completed",
         "purchaseId": "PUR-20938475",
         "amount": 18610
@@ -103,9 +120,9 @@
     ],
     "refundHistory": [
       {
-        "offsetDays": 13,
-        "offsetMinutes": 30,
-        "method": "Gift Card",
+        "offsetDays": 6,
+        "offsetMinutes": 0,
+        "method": "Credit Card •••• 8172",
         "status": "Completed",
         "refundId": "REF-20938475",
         "amount": 18610
@@ -114,39 +131,40 @@
     "phone": "01123456789",
     "returnable": true,
     "returnEligible": "No",
-    "EligbleEnd": 22,
+    "EligbleEnd": 0,
     "updateItems": [
-      { "offsetDays": 3, "info": "Order placed." },
-      { "offsetDays": 5, "info": "Shipped with courier." },
-      { "offsetDays": 7, "info": "Delivered" },
-      { "offsetDays": 9, "info": "Return picked up by courier." },
-      { "offsetDays": 12, "info": "Return item received at fulfillment center." }
+      { "offsetDays": 7, "info": "Order placed." },
+      { "offsetDays": 5, "info": "Order shipped." },
+      { "offsetDays": 3, "info": "Out for delivery." },
+      { "offsetDays": 3, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
     "shippedStatus": true,
     "outStatus": true,
     "DeliverStatus": true,
-    "orderOffsetDays": 3,
+    "orderOffsetDays": 7,
     "cancelOffsetDays": 0,
     "shippedOffsetDays": 5,
-    "outOffsetDays": 7,
-    "deliverOffsetDays": 7,
+    "outOffsetDays": 3,
+    "deliverOffsetDays": 3,
     "return": true,
     "initiatedStatus": true,
     "pickedUpStatus": true,
     "receivedStatus": true,
     "processedStatus": true,
-    "initiatedOffsetDays": 8,
-    "pickedUpOffsetDays": 9,
-    "receivedOffsetDays": 12,
-    "processedOffsetDays": 13,
+    "initiatedOffsetDays": 2,
+    "pickedUpOffsetDays": 2,
+    "receivedOffsetDays": 1,
+    "processedOffsetDays": 1,
     "image": "sony_headphones",
     "shippingCompany": "ARAMEX",
     "trackingNumber": "ARM39201928",
     "rshippingCompany": "ARAMEX",
     "rtrackingNumber": "ARM81726350"
   },
+
+
   {
     "id": 3,
     "orderNumber": "171-8823719-2293810",
@@ -154,12 +172,12 @@
     "asin": "B08923KLM1",
     "orderType": "Fullfilled by Amazon",
     "name": "Nescafé Gold Instant Coffee Glass Jar 200g",
-    "price": "180",
-    "shippingFees": "20",
-    "subtotal": "200",
-    "taxes": "28",
-    "promotions": "0",
-    "total": "228",
+    "price": 180,
+    "shippingFees": 20,
+    "subtotal": 200,
+    "taxes": 28,
+    "promotions": 0,
+    "total": 228,
     "hasRefund": false,
     "status": "Delivered",
     "orderDate": 6,
@@ -169,8 +187,9 @@
     "purchaseId": "PUR-30495867",
     "paymentHistory": [
       {
-        "offsetMinutes": 8640,
-        "method": "visa",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 4242",
         "status": "Completed",
         "purchaseId": "PUR-30495867",
         "amount": 228
@@ -180,11 +199,12 @@
     "phone": "01234567890",
     "returnable": false,
     "returnEligible": "No",
-    "EligbleEnd": 0,
+    "eligibleEnd": 0,
     "updateItems": [
       { "offsetDays": 6, "info": "Order placed." },
-      { "offsetDays": 7, "info": "Out for delivery." },
-      { "offsetDays": 8, "info": "Delivered" }
+      { "offsetDays": 4, "info": "Package shipped with AMZL." },
+      { "offsetDays": 2, "info": "Out for delivery." },
+      { "offsetDays": 2, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -193,9 +213,9 @@
     "DeliverStatus": true,
     "orderOffsetDays": 6,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 7,
-    "outOffsetDays": 7,
-    "deliverOffsetDays": 8,
+    "shippedOffsetDays": 4,
+    "outOffsetDays": 2,
+    "deliverOffsetDays": 2,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -210,7 +230,11 @@
     "trackingNumber": "AEG30495867",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  ,
+
+
   {
     "id": 4,
     "orderNumber": "403-9182736-1029384",
@@ -218,23 +242,24 @@
     "asin": "B0B1827364",
     "orderType": "Fullfilled by Amazon",
     "name": "Samsung 65-Inch 4K UHD Smart TV (2024 Model)",
-    "price": "24000",
-    "shippingFees": "0",
-    "subtotal": "24000",
-    "taxes": "3360",
-    "promotions": "400",
-    "total": "26960",
+    "price": 24000,
+    "shippingFees": 0,
+    "subtotal": 24000,
+    "taxes": 3360,
+    "promotions": 400,
+    "total": 26960,
     "hasRefund": true,
     "status": "Cancelled",
     "orderDate": 10,
-    "paymentMethod": "credit card",
+    "paymentMethod": "Credit Card",
     "cardLast4": "1092",
     "cardExpiry": "05/26",
     "purchaseId": "PUR-40192837",
     "paymentHistory": [
       {
-        "offsetMinutes": 14400,
-        "method": "credit card",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Credit Card •••• 1092",
         "status": "Completed",
         "purchaseId": "PUR-40192837",
         "amount": 26960
@@ -242,21 +267,21 @@
     ],
     "refundHistory": [
       {
-        "offsetDays": 10,
+        "offsetDays": 0,
         "offsetMinutes": 15,
-        "method": "credit card",
+        "method": "Credit Card •••• 1092",
         "status": "Completed",
         "refundId": "REF-40192837",
         "amount": 26960
       }
     ],
     "phone": "01098765432",
-    "returnable": true,
+    "returnable": false,
     "returnEligible": "No",
-    "EligbleEnd": 0,
+    "eligibleEnd": 0,
     "updateItems": [
       { "offsetDays": 10, "info": "Order placed." },
-      { "offsetDays": 10, "info": "Order cancelled by customer before shipment." }
+      { "offsetDays": 10, "info": "Order cancelled." }
     ],
     "orderStatus": true,
     "cancelStatus": true,
@@ -281,8 +306,19 @@
     "shippingCompany": "",
     "trackingNumber": "",
     "rshippingCompany": "",
-    "rtrackingNumber": ""
-  },
+    "rtrackingNumber": "",
+    "notes": [
+      {
+        "id": "note-1",
+        "info": "Refrence Number #66554497",
+        "offsetDays": 8
+      }
+    ]
+  }
+  
+  ,
+
+
   {
     "id": 5,
     "orderNumber": "402-1209384-5544332",
@@ -290,23 +326,24 @@
     "asin": "B091029384",
     "orderType": "easyship",
     "name": "Adidas Men's Ultraboost Running Shoes Black",
-    "price": "4500",
-    "shippingFees": "0",
-    "subtotal": "4500",
-    "taxes": "630",
-    "promotions": "100",
-    "total": "5030",
+    "price": 4500,
+    "shippingFees": 0,
+    "subtotal": 4500,
+    "taxes": 630,
+    "promotions": 100,
+    "total": 5030,
     "hasRefund": true,
     "status": "Undeliverable",
     "orderDate": 12,
-    "paymentMethod": "visa",
+    "paymentMethod": "Visa",
     "cardLast4": "5561",
     "cardExpiry": "01/29",
     "purchaseId": "PUR-50918273",
     "paymentHistory": [
       {
-        "offsetMinutes": 17280,
-        "method": "visa",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 5561",
         "status": "Completed",
         "purchaseId": "PUR-50918273",
         "amount": 5030
@@ -314,24 +351,24 @@
     ],
     "refundHistory": [
       {
-        "offsetDays": 17,
-        "offsetMinutes": 120,
-        "method": "visa",
+        "offsetDays": 5,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 5561",
         "status": "Completed",
         "refundId": "REF-50918273",
         "amount": 5030
       }
     ],
     "phone": "01187654321",
-    "returnable": true,
+    "returnable": false,
     "returnEligible": "No",
-    "EligbleEnd": 0,
+    "eligibleEnd": 0,
     "updateItems": [
       { "offsetDays": 12, "info": "Order placed." },
-      { "offsetDays": 14, "info": "Shipped with courier." },
-      { "offsetDays": 15, "info": "Out for delivery with courier." },
-      { "offsetDays": 16, "info": "Delivery attempt failed - Customer uncontactable." },
-      { "offsetDays": 17, "info": "Undeliverable - Incorrect shipping address provided." }
+      { "offsetDays": 10, "info": "Shipped with courier." },
+      { "offsetDays": 8, "info": "Out for delivery with courier." },
+      { "offsetDays": 7, "info": "Delivery attempt failed - Incorrect shipping address." },
+      { "offsetDays": 7, "info": "Undeliverable - Refund processed." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -340,8 +377,8 @@
     "DeliverStatus": false,
     "orderOffsetDays": 12,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 14,
-    "outOffsetDays": 15,
+    "shippedOffsetDays": 10,
+    "outOffsetDays": 8,
     "deliverOffsetDays": 0,
     "return": false,
     "initiatedStatus": false,
@@ -357,7 +394,12 @@
     "trackingNumber": "BST9812734",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+
+  ,
+
+
   {
     "id": 6,
     "orderNumber": "405-7761234-9988112",
@@ -365,30 +407,24 @@
     "asin": "B0C9182731",
     "orderType": "Fullfilled by Amazon",
     "name": "PlayStation 5 Console Slim Digital Edition",
-    "price": "28500",
-    "shippingFees": "0",
-    "subtotal": "28500",
-    "taxes": "3990",
-    "promotions": "300",
-    "total": "32190",
+    "price": 28500,
+    "shippingFees": 0,
+    "subtotal": 28500,
+    "taxes": 3990,
+    "promotions": 300,
+    "total": 32190,
     "hasRefund": false,
     "status": "Delivered",
     "orderDate": 15,
-    "paymentMethod": "Cash On Delivery",
+    "paymentMethod": "Visa",
     "cardLast4": "",
     "cardExpiry": "",
     "purchaseId": "PUR-60192834",
     "paymentHistory": [
+
       {
-        "offsetMinutes": 21600,
-        "method": "Cash On Delivery",
-        "status": "Pending",
-        "reason": "-",
-        "purchaseId": "PUR-60192834",
-        "amount": 32190
-      },
-      {
-        "offsetMinutes": 21602,
+        "offsetDays": 0,
+        "offsetMinutes": 0,
         "method": "Cash On Delivery",
         "status": "Completed",
         "purchaseId": "PUR-60192834",
@@ -399,12 +435,12 @@
     "phone": "01022334455",
     "returnable": true,
     "returnEligible": "Yes",
-    "EligbleEnd": 33,
+    "eligibleEnd": 33,
     "updateItems": [
       { "offsetDays": 15, "info": "Order placed." },
-      { "offsetDays": 16, "info": "Shipped from FC." },
-      { "offsetDays": 18, "info": "Out for delivery with local courier." },
-      { "offsetDays": 18, "info": "Delivered" }
+      { "offsetDays": 13, "info": "Shipped from FC." },
+      { "offsetDays": 11, "info": "Out for delivery with local courier." },
+      { "offsetDays": 11, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -413,9 +449,9 @@
     "DeliverStatus": true,
     "orderOffsetDays": 15,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 16,
-    "outOffsetDays": 18,
-    "deliverOffsetDays": 18,
+    "shippedOffsetDays": 13,
+    "outOffsetDays": 11,
+    "deliverOffsetDays": 11,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -430,7 +466,12 @@
     "trackingNumber": "AEG77612340",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  
+  ,
+
+
   {
     "id": 7,
     "orderNumber": "407-1122334-5566778",
@@ -506,7 +547,13 @@
     "trackingNumber": "AMT8192837",
     "rshippingCompany": "AMET",
     "rtrackingNumber": "AMT9911223"
-  },
+  }
+  
+  
+  ,
+
+
+
   {
     "id": 8,
     "orderNumber": "171-4455667-8899001",
@@ -514,23 +561,24 @@
     "asin": "B010928375",
     "orderType": "Fullfilled by Amazon",
     "name": "Anker PowerBank 20000mAh 22.5W Fast Charging",
-    "price": "1450",
-    "shippingFees": "0",
-    "subtotal": "1450",
-    "taxes": "203",
-    "promotions": "50",
-    "total": "1603",
+    "price": 1450,
+    "shippingFees": 0,
+    "subtotal": 1450,
+    "taxes": 203,
+    "promotions": 50,
+    "total": 1603,
     "hasRefund": false,
     "status": "Delivered",
     "orderDate": 22,
-    "paymentMethod": "credit card",
+    "paymentMethod": "Credit Card",
     "cardLast4": "3341",
     "cardExpiry": "09/27",
     "purchaseId": "PUR-80192834",
     "paymentHistory": [
       {
-        "offsetMinutes": 31680,
-        "method": "credit card",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Credit Card •••• 3341",
         "status": "Completed",
         "purchaseId": "PUR-80192834",
         "amount": 1603
@@ -540,11 +588,12 @@
     "phone": "01033445566",
     "returnable": true,
     "returnEligible": "Yes",
-    "EligbleEnd": 38,
+    "eligibleEnd": 38,
     "updateItems": [
       { "offsetDays": 22, "info": "Order placed." },
-      { "offsetDays": 23, "info": "Out for delivery with local courier." },
-      { "offsetDays": 23, "info": "Delivered" }
+      { "offsetDays": 20, "info": "Package shipped with AMZL." },
+      { "offsetDays": 19, "info": "Out for delivery with local courier." },
+      { "offsetDays": 19, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -553,9 +602,9 @@
     "DeliverStatus": true,
     "orderOffsetDays": 22,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 23,
-    "outOffsetDays": 23,
-    "deliverOffsetDays": 23,
+    "shippedOffsetDays": 20,
+    "outOffsetDays": 19,
+    "deliverOffsetDays": 19,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -570,7 +619,12 @@
     "trackingNumber": "AEG44556678",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  
+  ,
+
+
   {
     "id": 9,
     "orderNumber": "403-2233445-6677889",
@@ -578,34 +632,35 @@
     "asin": "B001827365",
     "orderType": "MFN",
     "name": "Atomic Habits by James Clear (Hardcover)",
-    "price": "150",
-    "shippingFees": "20",
-    "subtotal": "170",
-    "taxes": "23",
-    "promotions": "0",
-    "total": "193",
+    "price": 150,
+    "shippingFees": 20,
+    "subtotal": 170,
+    "taxes": 23,
+    "promotions": 0,
+    "total": 193,
     "hasRefund": false,
     "status": "Cancelled",
     "orderDate": 25,
-    "paymentMethod": "visa",
+    "paymentMethod": "Visa",
     "cardLast4": "7721",
     "cardExpiry": "12/26",
     "purchaseId": "PUR-90182736",
     "paymentHistory": [
       {
-        "offsetMinutes": 36000,
-        "method": "visa",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 7721",
         "status": "Declined",
-        "reason": "transaction over Card limit",
+        "reason": "Transaction over card limit",
         "purchaseId": "PUR-90182736",
         "amount": 193
       }
     ],
     "refundHistory": [],
     "phone": "01144556677",
-    "returnable": true,
+    "returnable": false,
     "returnEligible": "No",
-    "EligbleEnd": 0,
+    "eligibleEnd": 0,
     "updateItems": [
       { "offsetDays": 25, "info": "Order placed." },
       { "offsetDays": 25, "info": "Order cancelled due to payment processing issue." }
@@ -634,7 +689,13 @@
     "trackingNumber": "",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  
+  ,
+
+
+
   {
     "id": 10,
     "orderNumber": "402-9988776-1122334",
@@ -642,12 +703,12 @@
     "asin": "B0C1029384",
     "orderType": "Fullfilled by Amazon",
     "name": "LoveLuxe Color Changing Foundation: Korean foundation for Mature Skin",
-    "price": "420",
-    "shippingFees": "0",
-    "subtotal": "420",
-    "taxes": "58",
-    "promotions": "20",
-    "total": "458",
+    "price": 420,
+    "shippingFees": 0,
+    "subtotal": 420,
+    "taxes": 58,
+    "promotions": 20,
+    "total": 458,
     "hasRefund": false,
     "status": "Delivered",
     "orderDate": 28,
@@ -657,17 +718,18 @@
     "purchaseId": "PUR-10029384",
     "paymentHistory": [
       {
-        "offsetMinutes": 40320,
+        "offsetDays": 2,
+        "offsetMinutes": 0,
         "method": "Cash On Delivery",
-        "status": "Pending",
-        "reason": "-",
+        "status": "Completed",
         "purchaseId": "PUR-10029384",
         "amount": 458
       },
       {
-        "offsetMinutes": 40323,
+        "offsetDays": 0,
+        "offsetMinutes": 0,
         "method": "Cash On Delivery",
-        "status": "Completed",
+        "status": "Pending",
         "purchaseId": "PUR-10029384",
         "amount": 458
       }
@@ -676,11 +738,12 @@
     "phone": "01255667788",
     "returnable": true,
     "returnEligible": "Yes",
-    "EligbleEnd": 45,
+    "eligibleEnd": 45,
     "updateItems": [
       { "offsetDays": 28, "info": "Order placed." },
-      { "offsetDays": 29, "info": "Out for delivery with courier." },
-      { "offsetDays": 30, "info": "Delivered" }
+      { "offsetDays": 27, "info": "Shipped from FC." },
+      { "offsetDays": 26, "info": "Out for delivery with courier." },
+      { "offsetDays": 26, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -689,9 +752,9 @@
     "DeliverStatus": true,
     "orderOffsetDays": 28,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 29,
-    "outOffsetDays": 29,
-    "deliverOffsetDays": 30,
+    "shippedOffsetDays": 27,
+    "outOffsetDays": 26,
+    "deliverOffsetDays": 26,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -706,7 +769,11 @@
     "trackingNumber": "AEG99887761",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  ,
+
+
   {
     "id": 11,
     "orderNumber": "405-3344556-7788990",
@@ -714,23 +781,24 @@
     "asin": "B08N102938",
     "orderType": "Fullfilled by Amazon",
     "name": "Apple MacBook Air 13-inch M2 Chip 256GB SSD",
-    "price": "48000",
-    "shippingFees": "0",
-    "subtotal": "48000",
-    "taxes": "6720",
-    "promotions": "500",
-    "total": "54220",
-    "hasRefund": true,
+    "price": 48000,
+    "shippingFees": 0,
+    "subtotal": 48000,
+    "taxes": 6720,
+    "promotions": 500,
+    "total": 54220,
+    "hasRefund": false,
     "status": "Return received",
     "orderDate": 31,
-    "paymentMethod": "visa",
+    "paymentMethod": "Visa",
     "cardLast4": "1122",
     "cardExpiry": "10/28",
     "purchaseId": "PUR-11029384",
     "paymentHistory": [
       {
-        "offsetMinutes": 44640,
-        "method": "visa",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 1122",
         "status": "Completed",
         "purchaseId": "PUR-11029384",
         "amount": 54220
@@ -738,25 +806,22 @@
     ],
     "refundHistory": [
       {
-        "offsetDays": 41,
-        "offsetMinutes": 45,
-        "method": "visa",
+        "offsetDays": 12,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 1122",
         "status": "Completed",
         "refundId": "REF-11029384",
         "amount": 54220
       }
     ],
     "phone": "01066778899",
-    "returnable": true,
+    "returnable": false,
     "returnEligible": "No",
-    "EligbleEnd": 48,
+    "eligibleEnd": 48,
     "updateItems": [
       { "offsetDays": 31, "info": "Order placed." },
-      { "offsetDays": 32, "info": "Shipped." },
-      { "offsetDays": 33, "info": "Delivered" },
-      { "offsetDays": 37, "info": "Return picked up from customer." },
-      { "offsetDays": 39, "info": "Item received at Cairo FC." },
-      { "offsetDays": 41, "info": "Return processed and refunded." }
+      { "offsetDays": 29, "info": "Shipped from FC." },
+      { "offsetDays": 28, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -765,24 +830,30 @@
     "DeliverStatus": true,
     "orderOffsetDays": 31,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 32,
-    "outOffsetDays": 33,
-    "deliverOffsetDays": 33,
+    "shippedOffsetDays": 29,
+    "outOffsetDays": 28,
+    "deliverOffsetDays": 28,
     "return": true,
     "initiatedStatus": true,
     "pickedUpStatus": true,
     "receivedStatus": true,
     "processedStatus": true,
-    "initiatedOffsetDays": 35,
-    "pickedUpOffsetDays": 37,
-    "receivedOffsetDays": 39,
-    "processedOffsetDays": 41,
+    "initiatedOffsetDays": 25,
+    "pickedUpOffsetDays": 23,
+    "receivedOffsetDays": 21,
+    "processedOffsetDays": 19,
     "image": "macbook_air",
     "shippingCompany": "AMZL",
     "trackingNumber": "AEG33445567",
     "rshippingCompany": "AMZL",
     "rtrackingNumber": "AEG88990011"
-  },
+  }
+  
+  
+  ,
+
+
+
   {
     "id": 12,
     "orderNumber": "407-6677889-0011223",
@@ -790,12 +861,12 @@
     "asin": "B098127364",
     "orderType": "MFN",
     "name": "Adjustable Dumbbell Set 20KG with Extension Bar",
-    "price": "2200",
-    "shippingFees": "0",
-    "subtotal": "2200",
-    "taxes": "308",
-    "promotions": "50",
-    "total": "2458",
+    "price": 2200,
+    "shippingFees": 0,
+    "subtotal": 2200,
+    "taxes": 308,
+    "promotions": 50,
+    "total": 2458,
     "hasRefund": false,
     "status": "Delivered",
     "orderDate": 35,
@@ -805,17 +876,18 @@
     "purchaseId": "PUR-12019283",
     "paymentHistory": [
       {
-        "offsetMinutes": 50400,
+        "offsetDays": 3,
+        "offsetMinutes": 0,
         "method": "Cash On Delivery",
-        "status": "Pending",
-        "reason": "-",
+        "status": "Completed",
         "purchaseId": "PUR-12019283",
         "amount": 2458
       },
       {
-        "offsetMinutes": 50404,
+        "offsetDays": 0,
+        "offsetMinutes": 0,
         "method": "Cash On Delivery",
-        "status": "Completed",
+        "status": "Pending",
         "purchaseId": "PUR-12019283",
         "amount": 2458
       }
@@ -824,12 +896,12 @@
     "phone": "01177889900",
     "returnable": true,
     "returnEligible": "Yes",
-    "EligbleEnd": 53,
+    "eligibleEnd": 18,
     "updateItems": [
       { "offsetDays": 35, "info": "Order placed." },
-      { "offsetDays": 37, "info": "Shipped." },
-      { "offsetDays": 38, "info": "Out for delivery with MHYLERS." },
-      { "offsetDays": 38, "info": "Delivered" }
+      { "offsetDays": 33, "info": "Shipped with MHYLERS." },
+      { "offsetDays": 32, "info": "Out for delivery with MHYLERS." },
+      { "offsetDays": 32, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -838,9 +910,9 @@
     "DeliverStatus": true,
     "orderOffsetDays": 35,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 37,
-    "outOffsetDays": 38,
-    "deliverOffsetDays": 38,
+    "shippedOffsetDays": 33,
+    "outOffsetDays": 32,
+    "deliverOffsetDays": 32,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -855,7 +927,13 @@
     "trackingNumber": "MHY66778890",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  
+  ,
+
+
+
   {
     "id": 13,
     "orderNumber": "171-9900112-2334455",
@@ -863,23 +941,24 @@
     "asin": "B011223344",
     "orderType": "Fullfilled by Amazon",
     "name": "Philips Series 3000 Electric Shaver for Men",
-    "price": "2900",
-    "shippingFees": "0",
-    "subtotal": "2900",
-    "taxes": "406",
-    "promotions": "80",
-    "total": "3226",
-    "hasRefund": true,
+    "price": 2900,
+    "shippingFees": 0,
+    "subtotal": 2900,
+    "taxes": 406,
+    "promotions": 80,
+    "total": 3226,
+    "hasRefund": false,
     "status": "Undeliverable",
     "orderDate": 40,
-    "paymentMethod": "visa",
+    "paymentMethod": "Visa",
     "cardLast4": "4019",
     "cardExpiry": "06/27",
     "purchaseId": "PUR-13019283",
     "paymentHistory": [
       {
-        "offsetMinutes": 57600,
-        "method": "visa",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 4019",
         "status": "Completed",
         "purchaseId": "PUR-13019283",
         "amount": 3226
@@ -887,23 +966,23 @@
     ],
     "refundHistory": [
       {
-        "offsetDays": 43,
-        "offsetMinutes": 60,
-        "method": "visa",
+        "offsetDays": 3,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 4019",
         "status": "Completed",
         "refundId": "REF-13019283",
         "amount": 3226
       }
     ],
     "phone": "01299001122",
-    "returnable": true,
+    "returnable": false,
     "returnEligible": "No",
-    "EligbleEnd": 0,
+    "eligibleEnd": 0,
     "updateItems": [
       { "offsetDays": 40, "info": "Order placed." },
-      { "offsetDays": 41, "info": "Shipped." },
-      { "offsetDays": 42, "info": "Out for delivery with local courier." },
-      { "offsetDays": 43, "info": "Undeliverable - Item damaged in transit." }
+      { "offsetDays": 38, "info": "Shipped." },
+      { "offsetDays": 37, "info": "Out for delivery with local courier." },
+      { "offsetDays": 37, "info": "Undeliverable - Item damaged in transit. Refund processed." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
@@ -912,8 +991,8 @@
     "DeliverStatus": false,
     "orderOffsetDays": 40,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 41,
-    "outOffsetDays": 42,
+    "shippedOffsetDays": 38,
+    "outOffsetDays": 37,
     "deliverOffsetDays": 0,
     "return": false,
     "initiatedStatus": false,
@@ -929,7 +1008,13 @@
     "trackingNumber": "AEG99001122",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  
+  ,
+
+
+
   {
     "id": 14,
     "orderNumber": "403-5566778-8990011",
@@ -937,23 +1022,24 @@
     "asin": "B099887766",
     "orderType": "MFN",
     "name": "Logitech MX Master 3S Wireless Performance Mouse",
-    "price": "5200",
-    "shippingFees": "0",
-    "subtotal": "5200",
-    "taxes": "728",
-    "promotions": "120",
-    "total": "5808",
+    "price": 5200,
+    "shippingFees": 0,
+    "subtotal": 5200,
+    "taxes": 728,
+    "promotions": 120,
+    "total": 5808,
     "hasRefund": false,
     "status": "Delivered",
-    "orderDate": 45,
-    "paymentMethod": "credit card",
+    "orderDate": 47,
+    "paymentMethod": "Visa",
     "cardLast4": "6620",
     "cardExpiry": "03/28",
     "purchaseId": "PUR-14019283",
     "paymentHistory": [
       {
-        "offsetMinutes": 64800,
-        "method": "credit card",
+        "offsetDays": 0,
+        "offsetMinutes": 0,
+        "method": "Visa •••• 6620",
         "status": "Completed",
         "purchaseId": "PUR-14019283",
         "amount": 5808
@@ -963,22 +1049,23 @@
     "phone": "01011223344",
     "returnable": true,
     "returnEligible": "Yes",
-    "EligbleEnd": 62,
+    "eligibleEnd": 17,
     "updateItems": [
-      { "offsetDays": 45, "info": "Order placed." },
-      { "offsetDays": 46, "info": "Out for delivery." },
-      { "offsetDays": 47, "info": "Delivered" }
+      { "offsetDays": 47, "info": "Order placed." },
+      { "offsetDays": 45, "info": "Shipped with ARAMEX." },
+      { "offsetDays": 44, "info": "Out for delivery with ARAMEX." },
+      { "offsetDays": 44, "info": "Delivered." }
     ],
     "orderStatus": true,
     "cancelStatus": false,
     "shippedStatus": true,
     "outStatus": true,
     "DeliverStatus": true,
-    "orderOffsetDays": 45,
+    "orderOffsetDays": 47,
     "cancelOffsetDays": 0,
-    "shippedOffsetDays": 46,
-    "outOffsetDays": 46,
-    "deliverOffsetDays": 47,
+    "shippedOffsetDays": 45,
+    "outOffsetDays": 44,
+    "deliverOffsetDays": 44,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -993,7 +1080,13 @@
     "trackingNumber": "ARM55667788",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  
+  ,
+
+
+
   {
     "id": 15,
     "orderNumber": "402-8899001-2233445",
@@ -1001,12 +1094,12 @@
     "asin": "B0C2233445",
     "orderType": "Fullfilled by Amazon",
     "name": "Xiaomi Smart Band 8 Fitness Tracker",
-    "price": "1850",
-    "shippingFees": "0",
-    "subtotal": "1850",
-    "taxes": "259",
-    "promotions": "30",
-    "total": "2079",
+    "price": 1850,
+    "shippingFees": 0,
+    "subtotal": 1850,
+    "taxes": 259,
+    "promotions": 30,
+    "total": 2079,
     "hasRefund": false,
     "status": "Cancelled",
     "orderDate": 50,
@@ -1016,9 +1109,10 @@
     "purchaseId": "PUR-15019283",
     "paymentHistory": [
       {
-        "offsetMinutes": 72000,
+        "offsetDays": 0,
+        "offsetMinutes": 0,
         "method": "Cash On Delivery",
-        "status": "Pending",
+        "status": "-",
         "reason": "-",
         "purchaseId": "PUR-15019283",
         "amount": 2079
@@ -1028,7 +1122,7 @@
     "phone": "01122334455",
     "returnable": true,
     "returnEligible": "No",
-    "EligbleEnd": 0,
+    "eligibleEnd": 0,
     "updateItems": [
       { "offsetDays": 50, "info": "Order placed." },
       { "offsetDays": 50, "info": "Order cancelled by customer before dispatch." }
@@ -1057,303 +1151,311 @@
     "trackingNumber": "",
     "rshippingCompany": "",
     "rtrackingNumber": ""
-  },
+  }
+  
+  
+  ,
+
+
   {
-    "id": 16,
-    "orderNumber": "405-1122445-5566778",
-    "sellerName": "Home Appliance Hub",
-    "asin": "B083344556",
-    "orderType": "easyship",
-    "name": "Electric Boiler 1.7L Stainless Steel",
-    "price": "850",
-    "shippingFees": "0",
-    "subtotal": "850",
-    "taxes": "119",
-    "promotions": "0",
-    "total": "969",
-    "hasRefund": false,
-    "status": "Delivered",
-    "orderDate": 52,
-    "paymentMethod": "visa",
-    "cardLast4": "7812",
-    "cardExpiry": "02/27",
-    "purchaseId": "PUR-16019283",
-    "paymentHistory": [
-      {
-        "offsetMinutes": 74880,
-        "method": "visa",
-        "status": "Completed",
-        "purchaseId": "PUR-16019283",
-        "amount": 969
-      }
-    ],
-    "refundHistory": [],
-    "phone": "01233445566",
-    "returnable": true,
-    "returnEligible": "Yes",
-    "EligbleEnd": 69,
-    "updateItems": [
-      { "offsetDays": 52, "info": "Order placed." },
-      { "offsetDays": 53, "info": "Shipped." },
-      { "offsetDays": 54, "info": "Out for delivery with BOSTA." },
-      { "offsetDays": 54, "info": "Delivered" }
-    ],
-    "orderStatus": true,
-    "cancelStatus": false,
-    "shippedStatus": true,
-    "outStatus": true,
-    "DeliverStatus": true,
-    "orderOffsetDays": 52,
-    "cancelOffsetDays": 0,
-    "shippedOffsetDays": 53,
-    "outOffsetDays": 54,
-    "deliverOffsetDays": 54,
-    "return": false,
-    "initiatedStatus": false,
-    "pickedUpStatus": false,
-    "receivedStatus": false,
-    "processedStatus": false,
-    "initiatedOffsetDays": 0,
-    "pickedUpOffsetDays": 0,
-    "receivedOffsetDays": 0,
-    "processedOffsetDays": 0,
-    "image": "boiler",
-    "shippingCompany": "BOSTA",
-    "trackingNumber": "BST11224455",
-    "rshippingCompany": "",
-    "rtrackingNumber": ""
-  },
+  "id": 16,
+  "orderNumber": "405-1122445-5566778",
+  "sellerName": "Home Appliance Hub",
+  "asin": "B083344556",
+  "orderType": "easyship",
+  "name": "Electric Boiler 1.7L Stainless Steel",
+  "price": "850",
+  "shippingFees": "0",
+  "subtotal": "850",
+  "taxes": "119",
+  "promotions": "0",
+  "total": "969",
+  "hasRefund": false,
+  "status": "Delivered",
+  "orderDate": 52,
+  "paymentMethod": "visa",
+  "cardLast4": "7812",
+  "cardExpiry": "02/27",
+  "purchaseId": "PUR-16019283",
+  "paymentHistory": [
+    {
+      "offsetMinutes": 74880,
+      "method": "visa",
+      "status": "Completed",
+      "purchaseId": "PUR-16019283",
+      "amount": 969
+    }
+  ],
+  "refundHistory": [],
+  "phone": "01233445566",
+  "returnable": false,
+  "returnEligible": "No",
+  "EligbleEnd": 36,
+  "updateItems": [
+    { "offsetDays": 52, "info": "Order placed." },
+    { "offsetDays": 51, "info": "Shipped with BOSTA courier." },
+    { "offsetDays": 50, "info": "Out for delivery with BOSTA." },
+    { "offsetDays": 50, "info": "Delivered." }
+  ],
+  "orderStatus": true,
+  "cancelStatus": false,
+  "shippedStatus": true,
+  "outStatus": true,
+  "DeliverStatus": true,
+  "orderOffsetDays": 52,
+  "cancelOffsetDays": 0,
+  "shippedOffsetDays": 51,
+  "outOffsetDays": 50,
+  "deliverOffsetDays": 50,
+  "return": false,
+  "initiatedStatus": false,
+  "pickedUpStatus": false,
+  "receivedStatus": false,
+  "processedStatus": false,
+  "initiatedOffsetDays": 0,
+  "pickedUpOffsetDays": 0,
+  "receivedOffsetDays": 0,
+  "processedOffsetDays": 0,
+  "image": "boiler",
+  "shippingCompany": "BOSTA",
+  "trackingNumber": "BST11224455",
+  "rshippingCompany": "",
+  "rtrackingNumber": ""
+},
+
   {
-    "id": 17,
-    "orderNumber": "407-4455778-8990011",
-    "sellerName": "Amazon.eg",
-    "asin": "B0C4455667",
-    "orderType": "Fullfilled by Amazon",
-    "name": "Kindle Paperwhite (16 GB) 6.8\" Display with Adjustable Warm Light",
-    "price": "7500",
-    "shippingFees": "0",
-    "subtotal": "7500",
-    "taxes": "1050",
-    "promotions": "200",
-    "total": "8350",
-    "hasRefund": true,
-    "status": "Return received",
-    "orderDate": 55,
-    "paymentMethod": "Cash On Delivery",
-    "cardLast4": "",
-    "cardExpiry": "",
-    "purchaseId": "PUR-17019283",
-    "paymentHistory": [
-      {
-        "offsetMinutes": 79200,
-        "method": "Cash On Delivery",
-        "status": "Pending",
-        "reason": "-",
-        "purchaseId": "PUR-17019283",
-        "amount": 8350
-      },
-      {
-        "offsetMinutes": 79203,
-        "method": "Cash On Delivery",
-        "status": "Completed",
-        "purchaseId": "PUR-17019283",
-        "amount": 8350
-      }
-    ],
-    "refundHistory": [
-      {
-        "offsetDays": 63,
-        "offsetMinutes": 15,
-        "method": "Gift Card",
-        "status": "Completed",
-        "refundId": "REF-17019283",
-        "amount": 8350
-      }
-    ],
-    "phone": "01044556677",
-    "returnable": true,
-    "returnEligible": "No",
-    "EligbleEnd": 72,
-    "updateItems": [
-      { "offsetDays": 55, "info": "Order placed." },
-      { "offsetDays": 56, "info": "Shipped." },
-      { "offsetDays": 57, "info": "Delivered" },
-      { "offsetDays": 60, "info": "Return picked up by AMZL courier." },
-      { "offsetDays": 62, "info": "Return item received at Cairo FC." },
-      { "offsetDays": 63, "info": "Return processing complete. Gift card issued." }
-    ],
-    "orderStatus": true,
-    "cancelStatus": false,
-    "shippedStatus": true,
-    "outStatus": true,
-    "DeliverStatus": true,
-    "orderOffsetDays": 55,
-    "cancelOffsetDays": 0,
-    "shippedOffsetDays": 56,
-    "outOffsetDays": 57,
-    "deliverOffsetDays": 57,
-    "return": true,
-    "initiatedStatus": true,
-    "pickedUpStatus": true,
-    "receivedStatus": true,
-    "processedStatus": true,
-    "initiatedOffsetDays": 59,
-    "pickedUpOffsetDays": 60,
-    "receivedOffsetDays": 62,
-    "processedOffsetDays": 63,
-    "image": "kindle_paperwhite",
-    "shippingCompany": "AMZL",
-    "trackingNumber": "AEG44557788",
-    "rshippingCompany": "AMZL",
-    "rtrackingNumber": "AEG89900112"
-  },
+  "id": 17,
+  "orderNumber": "407-4455778-8990011",
+  "sellerName": "Amazon.eg",
+  "asin": "B0C4455667",
+  "orderType": "Fullfilled by Amazon",
+  "name": "Kindle Paperwhite (16 GB) 6.8\" Display with Adjustable Warm Light",
+  "price": "7500",
+  "shippingFees": "0",
+  "subtotal": "7500",
+  "taxes": "1050",
+  "promotions": "200",
+  "total": "8350",
+  "hasRefund": true,
+  "status": "Return received",
+  "orderDate": 55,
+  "paymentMethod": "Cash On Delivery",
+  "cardLast4": "",
+  "cardExpiry": "",
+  "purchaseId": "PUR-17019283",
+  "paymentHistory": [
+    {
+      "offsetMinutes": 76323,
+      "method": "Cash On Delivery",
+      "status": "Completed",
+      "purchaseId": "PUR-17019283",
+      "amount": 8350
+    },
+    {
+      "offsetMinutes": 76320,
+      "method": "Cash On Delivery",
+      "status": "Pending",
+      "reason": "-",
+      "purchaseId": "PUR-17019283",
+      "amount": 8350
+    }
+  ],
+  "refundHistory": [
+    {
+      "offsetDays": 47,
+      "offsetMinutes": 67680,
+      "method": "Gift Card",
+      "status": "Completed",
+      "refundId": "REF-17019283",
+      "amount": 8350
+    }
+  ],
+  "phone": "01044556677",
+  "returnable": false,
+  "returnEligible": "No",
+  "EligbleEnd": 39,
+  "updateItems": [
+    { "offsetDays": 55, "info": "Order placed." },
+    { "offsetDays": 54, "info": "Shipped with AMZL courier." },
+    { "offsetDays": 53, "info": "Out for delivery with AMZL courier." },
+    { "offsetDays": 53, "info": "Delivered." }
+  ],
+  "orderStatus": true,
+  "cancelStatus": false,
+  "shippedStatus": true,
+  "outStatus": true,
+  "DeliverStatus": true,
+  "orderOffsetDays": 55,
+  "cancelOffsetDays": 0,
+  "shippedOffsetDays": 54,
+  "outOffsetDays": 53,
+  "deliverOffsetDays": 53,
+  "return": true,
+  "initiatedStatus": true,
+  "pickedUpStatus": true,
+  "receivedStatus": true,
+  "processedStatus": true,
+  "initiatedOffsetDays": 51,
+  "pickedUpOffsetDays": 50,
+  "receivedOffsetDays": 48,
+  "processedOffsetDays": 47,
+  "image": "kindle_paperwhite",
+  "shippingCompany": "AMZL",
+  "trackingNumber": "AEG44557788",
+  "rshippingCompany": "AMZL",
+  "rtrackingNumber": "AEG89900112"
+},
+
+
+ {
+  "id": 18,
+  "orderNumber": "171-7788990-1122334",
+  "sellerName": "Amazon.eg",
+  "asin": "B0C5566778",
+  "orderType": "Fullfilled by Amazon",
+  "name": "Oral-B Pro 3 3000 Electric Rechargeable Toothbrush",
+  "price": "2100",
+  "shippingFees": "0",
+  "subtotal": "2100",
+  "taxes": "294",
+  "promotions": "40",
+  "total": "2354",
+  "hasRefund": false,
+  "status": "Delivered",
+  "orderDate": 60,
+  "paymentMethod": "visa",
+  "cardLast4": "9081",
+  "cardExpiry": "07/29",
+  "purchaseId": "PUR-18019283",
+  "paymentHistory": [
+    {
+      "offsetMinutes": 86400,
+      "method": "visa",
+      "status": "Completed",
+      "purchaseId": "PUR-18019283",
+      "amount": 2354
+    }
+  ],
+  "refundHistory": [],
+  "phone": "01155667788",
+  "returnable": false,
+  "returnEligible": "No",
+  "EligbleEnd": 44,
+  "updateItems": [
+    { "offsetDays": 60, "info": "Order placed." },
+    { "offsetDays": 59, "info": "Shipped with AMZL courier." },
+    { "offsetDays": 58, "info": "Out for delivery with AMZL courier." },
+    { "offsetDays": 58, "info": "Delivered." }
+  ],
+  "orderStatus": true,
+  "cancelStatus": false,
+  "shippedStatus": true,
+  "outStatus": true,
+  "DeliverStatus": true,
+  "orderOffsetDays": 60,
+  "cancelOffsetDays": 0,
+  "shippedOffsetDays": 59,
+  "outOffsetDays": 58,
+  "deliverOffsetDays": 58,
+  "return": false,
+  "initiatedStatus": false,
+  "pickedUpStatus": false,
+  "receivedStatus": false,
+  "processedStatus": false,
+  "initiatedOffsetDays": 0,
+  "pickedUpOffsetDays": 0,
+  "receivedOffsetDays": 0,
+  "processedOffsetDays": 0,
+  "image": "oralb_toothbrush",
+  "shippingCompany": "AMZL",
+  "trackingNumber": "AEG77889901",
+  "rshippingCompany": "",
+  "rtrackingNumber": ""
+},
+
   {
-    "id": 18,
-    "orderNumber": "171-7788990-1122334",
-    "sellerName": "Amazon.eg",
-    "asin": "B0C5566778",
-    "orderType": "Fullfilled by Amazon",
-    "name": "Oral-B Pro 3 3000 Electric Rechargeable Toothbrush",
-    "price": "2100",
-    "shippingFees": "0",
-    "subtotal": "2100",
-    "taxes": "294",
-    "promotions": "40",
-    "total": "2354",
-    "hasRefund": false,
-    "status": "Delivered",
-    "orderDate": 60,
-    "paymentMethod": "visa",
-    "cardLast4": "9081",
-    "cardExpiry": "07/29",
-    "purchaseId": "PUR-18019283",
-    "paymentHistory": [
-      {
-        "offsetMinutes": 86400,
-        "method": "visa",
-        "status": "Completed",
-        "purchaseId": "PUR-18019283",
-        "amount": 2354
-      }
-    ],
-    "refundHistory": [],
-    "phone": "01155667788",
-    "returnable": true,
-    "returnEligible": "Yes",
-    "EligbleEnd": 76,
-    "updateItems": [
-      { "offsetDays": 60, "info": "Order placed." },
-      { "offsetDays": 61, "info": "Out for delivery with AMZL courier." },
-      { "offsetDays": 61, "info": "Delivered" }
-    ],
-    "orderStatus": true,
-    "cancelStatus": false,
-    "shippedStatus": true,
-    "outStatus": true,
-    "DeliverStatus": true,
-    "orderOffsetDays": 60,
-    "cancelOffsetDays": 0,
-    "shippedOffsetDays": 61,
-    "outOffsetDays": 61,
-    "deliverOffsetDays": 61,
-    "return": false,
-    "initiatedStatus": false,
-    "pickedUpStatus": false,
-    "receivedStatus": false,
-    "processedStatus": false,
-    "initiatedOffsetDays": 0,
-    "pickedUpOffsetDays": 0,
-    "receivedOffsetDays": 0,
-    "processedOffsetDays": 0,
-    "image": "oralb_toothbrush",
-    "shippingCompany": "AMZL",
-    "trackingNumber": "AEG77889901",
-    "rshippingCompany": "",
-    "rtrackingNumber": ""
-  },
-  {
-    "id": 19,
-    "orderNumber": "403-0011223-3445566",
-    "sellerName": "Tech Hub Egypt",
-    "asin": "B0C6677889",
-    "orderType": "MFN",
-    "name": "TP-Link AC1200 Wireless Dual Band Gigabit Router",
-    "price": "1250",
-    "shippingFees": "0",
-    "subtotal": "1250",
-    "taxes": "175",
-    "promotions": "0",
-    "total": "1425",
-    "hasRefund": true,
-    "status": "Return received",
-    "orderDate": 65,
-    "paymentMethod": "credit card",
-    "cardLast4": "1209",
-    "cardExpiry": "11/26",
-    "purchaseId": "PUR-19019283",
-    "paymentHistory": [
-      {
-        "offsetMinutes": 93600,
-        "method": "credit card",
-        "status": "Completed",
-        "purchaseId": "PUR-19019283",
-        "amount": 1425
-      }
-    ],
-    "refundHistory": [
-      {
-        "offsetDays": 72,
-        "offsetMinutes": 20,
-        "method": "credit card",
-        "status": "Completed",
-        "refundId": "REF-19019283",
-        "amount": 1425
-      }
-    ],
-    "phone": "01266778899",
-    "returnable": true,
-    "returnEligible": "No",
-    "EligbleEnd": 82,
-    "updateItems": [
-      { "offsetDays": 65, "info": "Order placed." },
-      { "offsetDays": 66, "info": "Shipped." },
-      { "offsetDays": 67, "info": "Delivered" },
-      { "offsetDays": 69, "info": "Return picked up by ARAMEX." },
-      { "offsetDays": 71, "info": "Item received at merchant hub." },
-      { "offsetDays": 72, "info": "Return processed and refunded to credit card." }
-    ],
-    "orderStatus": true,
-    "cancelStatus": false,
-    "shippedStatus": true,
-    "outStatus": true,
-    "DeliverStatus": true,
-    "orderOffsetDays": 65,
-    "cancelOffsetDays": 0,
-    "shippedOffsetDays": 66,
-    "outOffsetDays": 67,
-    "deliverOffsetDays": 67,
-    "return": true,
-    "initiatedStatus": true,
-    "pickedUpStatus": true,
-    "receivedStatus": true,
-    "processedStatus": true,
-    "initiatedOffsetDays": 68,
-    "pickedUpOffsetDays": 69,
-    "receivedOffsetDays": 71,
-    "processedOffsetDays": 72,
-    "image": "tplink_router",
-    "shippingCompany": "ARAMEX",
-    "trackingNumber": "ARM00112233",
-    "rshippingCompany": "ARAMEX",
-    "rtrackingNumber": "ARM34455667"
-  },
+  "id": 19,
+  "orderNumber": "403-0011223-3445566",
+  "sellerName": "Tech Hub Egypt",
+  "asin": "B0C6677889",
+  "orderType": "MFN",
+  "name": "TP-Link AC1200 Wireless Dual Band Gigabit Router",
+  "price": "1250",
+  "shippingFees": "0",
+  "subtotal": "1250",
+  "taxes": "175",
+  "promotions": "0",
+  "total": "1425",
+  "hasRefund": true,
+  "status": "Return received",
+  "orderDate": 72,
+  "paymentMethod": "credit card",
+  "cardLast4": "1209",
+  "cardExpiry": "11/26",
+  "purchaseId": "PUR-19019283",
+  "paymentHistory": [
+    {
+      "offsetMinutes": 103680,
+      "method": "credit card",
+      "status": "Completed",
+      "purchaseId": "PUR-19019283",
+      "amount": 1425
+    }
+  ],
+  "refundHistory": [
+    {
+      "offsetDays": 65,
+      "offsetMinutes": 93600,
+      "method": "credit card",
+      "status": "Completed",
+      "refundId": "REF-19019283",
+      "amount": 1425
+    }
+  ],
+  "phone": "01266778899",
+  "returnable": false,
+  "returnEligible": "No",
+  "EligbleEnd": 56,
+  "updateItems": [
+    { "offsetDays": 72, "info": "Order placed." },
+    { "offsetDays": 71, "info": "Shipped." },
+    { "offsetDays": 70, "info": "Delivered." }
+  ],
+  "orderStatus": true,
+  "cancelStatus": false,
+  "shippedStatus": true,
+  "outStatus": true,
+  "DeliverStatus": true,
+  "orderOffsetDays": 72,
+  "cancelOffsetDays": 0,
+  "shippedOffsetDays": 71,
+  "outOffsetDays": 70,
+  "deliverOffsetDays": 70,
+  "return": true,
+  "initiatedStatus": true,
+  "pickedUpStatus": true,
+  "receivedStatus": true,
+  "processedStatus": true,
+  "initiatedOffsetDays": 68,
+  "pickedUpOffsetDays": 67,
+  "receivedOffsetDays": 66,
+  "processedOffsetDays": 65,
+  "image": "tplink_router",
+  "shippingCompany": "ARAMEX",
+  "trackingNumber": "ARM00112233",
+  "rshippingCompany": "ARAMEX",
+  "rtrackingNumber": "ARM34455667"
+},
+
+
   {
     "id": 20,
     "orderNumber": "402-3344556-6778899",
-    "sellerName": "Amazon.eg",
+    "sellerName": "Pampers Official Store",
     "asin": "B0C7788990",
     "orderType": "Fullfilled by Amazon",
     "name": "Pampers Baby-Dry Pants Size 4, 84 Nappies",
+    "details":"check asin error",
     "price": "680",
     "shippingFees": "0",
     "subtotal": "680",
@@ -1362,24 +1464,24 @@
     "total": "745",
     "hasRefund": false,
     "status": "Delivered",
-    "orderDate": 70,
+    "orderDate": 71,
     "paymentMethod": "Cash On Delivery",
     "cardLast4": "",
     "cardExpiry": "",
     "purchaseId": "PUR-20019283",
     "paymentHistory": [
       {
-        "offsetMinutes": 100800,
+        "offsetMinutes": 100805,
         "method": "Cash On Delivery",
-        "status": "Pending",
-        "reason": "-",
+        "status": "Completed",
         "purchaseId": "PUR-20019283",
         "amount": 745
       },
       {
-        "offsetMinutes": 100805,
+        "offsetMinutes": 100800,
         "method": "Cash On Delivery",
-        "status": "Completed",
+        "status": "Pending",
+        "reason": "-",
         "purchaseId": "PUR-20019283",
         "amount": 745
       }
@@ -1390,20 +1492,20 @@
     "returnEligible": "No",
     "EligbleEnd": 0,
     "updateItems": [
-      { "offsetDays": 70, "info": "Order placed." },
-      { "offsetDays": 71, "info": "Out for delivery with AMZL courier." },
-      { "offsetDays": 71, "info": "Delivered" }
+      { "offsetDays": 71, "info": "Order placed." },
+      { "offsetDays": 70, "info": "Out for delivery with AMZL courier." },
+      { "offsetDays": 70, "info": "Delivered" }
     ],
     "orderStatus": true,
     "cancelStatus": false,
     "shippedStatus": true,
     "outStatus": true,
     "DeliverStatus": true,
-    "orderOffsetDays": 70,
+    "orderOffsetDays": 71,
     "cancelOffsetDays": 0,
     "shippedOffsetDays": 71,
-    "outOffsetDays": 71,
-    "deliverOffsetDays": 71,
+    "outOffsetDays": 70,
+    "deliverOffsetDays": 70,
     "return": false,
     "initiatedStatus": false,
     "pickedUpStatus": false,
@@ -1416,6 +1518,79 @@
     "image": "pampers_pants",
     "shippingCompany": "AMZL",
     "trackingNumber": "AEG33445566",
+    "rshippingCompany": "",
+    "rtrackingNumber": ""
+  },
+
+  {
+    "id": 21,
+    "orderNumber": "402-9988776-5544332",
+    "sellerName": "El King",
+    "asin": "B0C9988776",
+    "orderType": "EasyShip",
+    "name": "20 Afia Pure Corn Oil - 1.6 Liters",
+    "price": "19000",
+    "shippingFees": "0",
+    "subtotal": "19020",
+    "taxes": "500",
+    "promotions": "15",
+    "total": "19515",
+    "hasRefund": false,
+    "status": "Delivered",
+    "orderDate": 0,
+    "paymentMethod": "Visa",
+    "cardLast4": "",
+    "cardExpiry": "",
+    "purchaseId": "PUR-20098765",
+    "paymentHistory": [
+      {
+        "offsetMinutes": 360,
+        "method": "Visa",
+        "status": "Pending",
+        "reason": "-",
+        "purchaseId": "PUR-20098765",
+        "amount": 224
+      },
+      {
+        "offsetMinutes": 30,
+        "method": "Visa",
+        "status": "Completed",
+        "purchaseId": "PUR-20098765",
+        "amount": 224
+      }
+    ],
+    "refundHistory": [],
+    "phone": "01077889900",
+    "returnable": false,
+    "returnEligible": "No",
+    "EligbleEnd": 0,
+    "updateItems": [
+      { "offsetDays": 1, "info": "Order placed." },
+      { "offsetDays": 0, "info": "Out for delivery with AMZL courier." },
+      { "offsetDays": 0, "info": "Delivered" }
+    ],
+    "orderStatus": true,
+    "cancelStatus": false,
+    "shippedStatus": true,
+    "outStatus": true,
+    "DeliverStatus": true,
+    "orderOffsetDays": 1,
+    "cancelOffsetDays": 0,
+    "shippedOffsetDays": 0,
+    "outOffsetDays": 0,
+    "deliverOffsetDays": 0,
+    "return": false,
+    "initiatedStatus": false,
+    "pickedUpStatus": false,
+    "receivedStatus": false,
+    "processedStatus": false,
+    "initiatedOffsetDays": 0,
+    "pickedUpOffsetDays": 0,
+    "receivedOffsetDays": 0,
+    "processedOffsetDays": 0,
+    "image": "afia_oil",
+    "shippingCompany": "AMZL",
+    "trackingNumber": "AEG99887766",
     "rshippingCompany": "",
     "rtrackingNumber": ""
   }
