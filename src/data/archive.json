@@ -1,0 +1,150 @@
+[
+{
+    "id": 1,
+    "orderNumber":"404-1234567-7654321", //must start with 405-407-171-403-402 and must be unique for each item
+    "sellerName":"Amazon.eg", 
+    "asin":"BQW87624",
+    "orderType":"Fullfilled by Amazon", // always Fullfilled by Amazon if seller Amazon.eg if not can be Fullfilled by Amazon or MFN or mfn gold or easyship
+    "name": "Samsung Phone",
+    "price": "18000",
+    "shippingFees": "20", // can be 0 total >200 or 20 if total<200
+    "subtotal": "18020",
+    "taxes": "200",
+    "promotions":"10", // can be from 20 to 500 or just 0
+    "total": "18220",
+    "hasRefund": false,  //if item refunded that should be only if item cancelled or undeliverable or "processedStatus":true but not nessecary 
+    "status": "Delivered", // can be Return received if "pickedUpStatus":true or cancelled or undeliverable or delievred
+    "orderDate": 0,
+    "paymentMethod": "Cash On Delivery", // can be Cash On Delivery ,visa , credit card
+    "cardLast4": "4242",
+    "cardExpiry": "11/27",
+    "purchaseId": "PUR-98342176",
+    "paymentHistory": [
+  {
+    "offsetMinutes": 4,
+    "method": "Cash On Delivery", // should be same as "paymentMethod"
+    "status": "Completed",
+    "purchaseId": "PUR-98342176",
+    "amount": 18220
+  },
+  {  // second one not important except if its COD or if visa or creditcard declined for transaction over limit or card information error
+    "offsetMinutes": 0,
+    "method": "Cash On Delivery", // should be same as "paymentMethod"
+    "status": "Pending",
+    "reason": "-",
+    "purchaseId": "PUR-98342176",
+    "amount": 18220
+  }
+],
+"refundHistory": [  // if "hasRefund" =true 
+      {
+        "offsetDays": 1, // when refund issued
+        "offsetMinutes": 4,
+        "method": "Cash On Delivery",// should be same "paymentMethod" except for COD orders will Gift Card
+        "status": "Completed",
+        "refundId": "REF-98342176",
+        "amount": 18220
+      }
+    ],
+    "phone": "010100", // can be randow egyptian phones
+    "returnable": true, //if item eligible for return as some items like food not eligible
+    "returnEligible": "Yes", // if still in return window that can be 15 days after delievry date "deliverOffsetDays"
+    "EligbleEnd": -15, // date that return window will end so item can't be returned anymore
+    "updateItems": [  //shipping updates if "status": undeliverable or first delivery attempt that should be in updates
+      { "offsetDays": 0, "info": "Delivered" },
+      { "offsetDays": 0, "info": "Out for delivery with local courier." },
+      { "offsetDays": 2, "info": "Arrived at Cairo facility." }
+    ],
+        "orderStatus": true, // if order made
+    "cancelStatus": true, //if order cancelled true other status "shippedStatus","outStatus","DeliverStatus" should be false
+    "shippedStatus": false, // if order shipped
+    "outStatus":false, //if order out of delivery
+    "DeliverStatus":false, // if order delivered  can be false if "status": undeliverable or first delivery attempt
+
+  "orderOffsetDays": 3, //day user made order
+  "cancelOffsetDays": 0, // day cst cancelled order
+  "shippedOffsetDays": 1, // date of order shipped
+  "outOffsetDays": 3, // date of out of delivery
+  "deliverOffsetDays": 3, // date that order delivered
+
+  "return":true, //in case there is return request initiated
+  "initiatedStatus":true, //if return request initiated
+  "pickedUpStatus":true, // if return item picked up
+  "receivedStatus":true, // if returned item received in fc
+  "processedStatus":false, // if return item processed 
+
+  "initiatedOffsetDays": 4, //date of return request created
+    "pickedUpOffsetDays": 3, // date of return picked up from user
+    "receivedOffsetDays": 1, // date item received in fc
+    "processedOffsetDays": 0, // date item processed
+
+    
+  "image":"phone", //image of item
+  "shippingCompany":"AMZL", // delivery shipping company can be AMZL, ARAMEX , BOSTA , AMET , MYLERS
+  "trackingNumber":"AEG18000542", //delivery tracking if amzl always start with AEG , others can be any random
+  
+"rshippingCompany":"AMZL", // return shipping company can be AMZL, ARAMEX , BOSTA , AMET , MYLERS
+"rtrackingNumber":"AEG18722542" //return tracking if amzl always start with AEG , others can be any random
+
+  },
+  {
+    "id": 2,
+    "name": "Tea",
+    "status": "Cancelled",
+    "orderStatus": true,
+    "cancelStatus": true,
+    "shippedStatus": false,
+    "outStatus": false,
+    "DeliverStatus": false,
+    "imageKey": "tea",
+    "details": "Cancelled by customer before shipment. Full refund processed to wallet."
+  },
+  {
+    "id": 3,
+    "name": "Anker Charger",
+    "status": "Delivery Rejected",
+    "orderStatus": true,
+    "cancelStatus": false,
+    "shippedStatus": true,
+    "outStatus": true,
+    "DeliverStatus": false,
+    "imageKey": "anker",
+    "details": "Customer rejected package due to damaged exterior packaging upon arrival."
+  },
+  {
+    "id": 4,
+    "name": "Boiler",
+    "status": "100 EGP Refunded",
+    "orderStatus": true,
+    "cancelStatus": false,
+    "shippedStatus": true,
+    "outStatus": true,
+    "DeliverStatus": true,
+    "imageKey": "boiler",
+    "details": "Item returned under warranty. 100 EGP credited back via original payment method."
+  },
+  {
+    "id": 5,
+    "name": "PlayStation",
+    "status": "Delivery Attempted",
+    "orderStatus": true,
+    "cancelStatus": false,
+    "shippedStatus": true,
+    "outStatus": true,
+    "DeliverStatus": true,
+    "imageKey": "play",
+    "details": "Item returned under warranty. 100 EGP credited back via original payment method."
+  },
+  {
+    "id": 6,
+    "name": "LoveLuxe Color Changing Foundation:Korean foundation for Mature Skin",
+    "status": "Undeliverable",
+    "orderStatus": true,
+    "cancelStatus": false,
+    "shippedStatus": true,
+    "outStatus": true,
+    "DeliverStatus": true,
+    "imageKey": "makeup",
+    "details": "Item returned under warranty. 100 EGP credited back via original payment method."
+  }
+]

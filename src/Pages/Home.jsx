@@ -3,7 +3,7 @@ import NoCalls from '../components/NoCalls';
 import ActiveCallView from '../components/ActiveCallView';
 
 export default function Home() {
-  const { status, lastAction } = useCall();
+  const { status, lastAction,workFlow,setWorkFlow } = useCall();
 
   // 1. الشرط الأول: حالة Offline أو Available أو Missed
   if (['Offline', 'Available', 'Missed call'].includes(status)) {
@@ -11,9 +11,10 @@ export default function Home() {
   }
 
   // 2. إذا كان الأكشن هو إنهاء المكالمة
- /* if (lastAction === 'End Call Confirmed') {
-    return <AfterCallReport />;
-  }*/
+ if (lastAction === 'End Call Confirmed') {
+  setWorkFlow(0)
+    //return <AfterCallReport />;
+  }
 
   // 3. إذا كانت المكالمة نشطة
   if (status === 'On contact') {
